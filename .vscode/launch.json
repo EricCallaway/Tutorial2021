@@ -1,0 +1,38 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        // {
+        //     "name": "Python: Current File",
+        //     "type": "python",
+        //     "request": "launch",
+        //     "program": "${file}",
+        //     "console": "integratedTerminal"
+        // }, 
+        {
+            "name": "TaskFlow",
+            "type": "python",
+            "request": "launch",
+            "stopOnEntry": false,
+            "pythonPath": "${command:python.interpreterPath}",
+            "console": "integratedTerminal",
+            "program": "/Users/ericcallaway/Odoo-Dev/odoo/odoo-bin", //Changed last path from python to addons
+            "args": [
+                "--config=/Users/ericcallaway/Odoo-Dev/odoo/odoo-server.conf",
+                "--db-filter=2025",
+                "--update=student",
+                "--log-level=test",
+                "--test-enable",
+                "-u student",
+                "--limit-time-real=100000",
+                
+            ],
+            "cwd": "${workspaceRoot}",
+            "env": {},
+            "envFile": "{workspaceRoot}/.env"
+
+        }
+    ]
+}
