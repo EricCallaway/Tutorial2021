@@ -21,7 +21,7 @@
             "program": "/Users/ericcallaway/Odoo-Dev/odoo/odoo-bin", //Changed last path from python to addons
             "args": [
                 "--config=/Users/ericcallaway/Odoo-Dev/odoo/odoo-server.conf",
-                "--db-filter=2025",
+                "--db-filter=2026",
                 "--update=student",
                 "--log-level=test",
                 "--test-enable",
