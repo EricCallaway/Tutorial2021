@@ -22,10 +22,9 @@
             "args": [
                 "--config=/Users/ericcallaway/Odoo-Dev/odoo/odoo-server.conf",
                 "--db-filter=2026",
-                "--update=student",
+                "--update=campaign,crm",
                 "--log-level=test",
                 "--test-enable",
-                "-u student",
                 "--limit-time-real=100000",
                 
             ],
